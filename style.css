@@ -1,0 +1,74 @@
+:root{
+    --first-color :rgb(250, 97, 41);
+    --secondary-color : white;
+
+}
+.navigation{
+font-size: 0px;
+margin: 10px;
+background-color: var(--first-color);
+}
+
+.list-style{
+
+}
+
+.sub-list{
+    display: inline-block;
+    position: relative;
+    background-color: var(--first-color);
+    padding: 20px;
+}
+
+.link{
+text-decoration: none;
+color: var(--secondary-color);
+font-size: 30px;
+width: 100%;
+}
+.list1{
+    display: none;
+    background-color:  var(--first-color);
+    padding: 20px;
+}
+
+.sub-nav-list{
+position: absolute;
+top: 60px;
+}
+
+.sub-list:hover .list1 {
+    display: block;
+    left: 100px;
+}
+
+.list2{
+    display: none;
+    background-color: var(--first-color);
+    padding: 20px; 
+}
+.sub2-nav-list{
+    position: absolute;
+    top: 140px;
+    left: 160px;
+}
+
+.list1:hover .list2{
+    display: block;
+}
+
+.list3{
+    display: none;
+    background-color:  var(--first-color);
+    padding: 20px; 
+    white-space: nowrap;
+}
+.sub3-nav-list{
+    position: absolute;
+    top: 140px;
+    left: 180px;
+}
+
+.list2:hover .list3{
+    display: block;
+}
